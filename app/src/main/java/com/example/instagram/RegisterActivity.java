@@ -142,7 +142,6 @@ public class RegisterActivity extends AppCompatActivity {
                             Toast.makeText(RegisterActivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
                             mDialog.dismiss();
                         }
-
                     }
                 });
     }

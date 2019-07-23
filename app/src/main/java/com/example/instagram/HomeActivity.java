@@ -44,7 +44,6 @@ public class HomeActivity extends AppCompatActivity {
                             break;
                         case  R.id.action_post:
                             startActivity(new Intent(HomeActivity.this,PostActivity.class));
-                            finish();
                             break;
                         case R.id.action_favourite:
                             selectedFragment= new FavouriteFragment();
